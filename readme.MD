@@ -1,3 +1,5 @@
+Panini
+
 Nos contrata Panini para desarrollar la versión digital del álbum de figuritas del mundial.
 Cada figurita está compuesta por su código identificatorio, la letra del grupo al que pertenece, la selección, el nombre del jugador y el valor del jugador en el mercado.
 El sistema puede tener dos tipos de usuarios registrados. Los administradores, quienes son los encargados de administrar toda la información de las figuritas que se van a comercializar, y los usuarios finales que son los que en definitiva jugarán.
@@ -7,3 +9,31 @@ Las figuritas tienen un identificador único que está compuesto por la selecci�
 A diferencia de lo que ocurre a nivel administrador, cuando un usuario final agregue una nueva figurita a su stock, estas pueden repetirse.
 El usuario final tiene la posibilidad de pegarFigurita en su álbum. Si un usuario final intenta pegar una figurita que ya había pegado previamente, el sistema debe arrojar la excepción “FiguritaRepetida”.
 Por último, el sistema debe permitir el intercambio de figuritas entre distintos usuarios. Si por alguna razón, un usuario intenta intercambiar una figurita que no posee o que YA HABIA PEGADO, el sistema debe lanzar la excepción “FiguritaNoDisponible”.
+
+5%
+queSePuedaCrearUnAdministrador
+5%
+queSePuedaCrearUnUsuarioFinal
+5%
+queUnAdministradorPuedaAgregarUnaFigurita
+5%
+queUnUsuarioFinalPuedaAgregarUnaFigurita
+5%
+queLasFiguritasAgregadasDeFormaDesordenadaQuedenOrdenadas
+5%
+queUnAdministradorNoPuedaAgregarUnaFiguritaExistente
+5%
+queUnUsuarioFinalSiPuedaAgregarFiguritasExistentes
+5%
+queUnUsuarioFinalPuedaPegarUnaFigurita
+20%
+queUnUsuarioFinalNoPuedaPegarUnaFiguritaRepetida
+10%
+queSePuedaRealizarElIntercambioDeFiguritasEntreDosUsuariosFinales
+20%
+queNoSePuedaIntercambiarUnaFiguritaDeUnUsuarioQueNoLaTenga
+5%
+queNoSePuedaIntercambiarUnaFiguritaDeUnUsuarioQueYaLaHayaPegado
+5%
+
+
